@@ -123,3 +123,27 @@ span {
     font-size: 15px;
     margin: 0px;
 }
+ h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 12vh;
+ }
+
+.livros {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.livro-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.livro-img img {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+}
