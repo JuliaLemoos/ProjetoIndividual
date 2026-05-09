@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0px;
     background-color: #f7efe0;
@@ -81,23 +83,25 @@ span {
 }
 
 .main .manchete {
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
-}
-
-.main-container .manchete {
-    background-color: #790909;
-    border-radius: 16px;
-    padding: 20px;
-    width: 800px;
-    margin: 20px auto;
-    color: white;
     text-align: center;
-    display: block;
 }
 
 .subtitulo-historia {
     font-size: 18px;
+    text-align: center;
+}
+
+.historia .paragrafo {
+    background-color: #790909;
+    border-radius: 12px;
+    padding: 25px;
+    width: 1000px;
+    margin: 20px auto;
+    color: white;
     text-align: left;
+    display: block;
 }
 
 .cards-historia {
